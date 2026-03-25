@@ -1,0 +1,5 @@
+{
+  "name": "Hungry Bird Order Form",
+  "description": "A premium order form for Hungry Bird kitchen services, featuring product categories, automated WhatsApp ordering, and Verse payment integration.",
+  "requestFramePermissions": []
+}

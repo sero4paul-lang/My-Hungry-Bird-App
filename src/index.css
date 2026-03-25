@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0a0f2c] text-[#e5e7eb] min-h-screen;
+    background: linear-gradient(135deg, #0a0f2c, #1558c0);
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0f2c;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4c1d95;
+    border-radius: 10px;
+  }
+}
+
+.verse-highlight {
+  box-shadow: 0 4px 12px rgba(176, 132, 255, 0.3);
+}
+
+.price-text {
+  color: #b084ff;
+}
