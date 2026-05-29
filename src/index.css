@@ -7,7 +7,7 @@
 @layer base {
   body {
     @apply bg-[#0a0f2c] text-[#e5e7eb] min-h-screen;
-    background: linear-gradient(135deg, #0a0f2c, #1558c0);
+    background: linear-gradient(135deg, #0a0f2c, #1a0b2e);
   }
 
   /* Custom scrollbar */
